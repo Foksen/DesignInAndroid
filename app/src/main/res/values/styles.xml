@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextDefault">
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="TextDefault.HeaderText" parent="TextDefault">
+        <item name="android:textSize">@dimen/headerSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/magenta</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextDefault.SubHeaderText" parent="TextDefault">
+        <item name="android:textSize">@dimen/subHeaderSize</item>
+        <item name="android:textColor">@color/yellow</item>
+    </style>
+
+</resources>
